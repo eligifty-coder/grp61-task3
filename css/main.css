@@ -66,6 +66,20 @@ body{
    justify-content: space-between;
    align-items: flex-start;
 }
+.fixed{
+   position:fixed;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   top: 0%;
+   width:100vw ;
+   padding: 20px 55px;
+   background: rgb(242, 242, 246);
+   height: 40px;
+   display: flex;
+   justify-content: space-between;
+   z-index: 1111;
+   align-items: flex-start;
+   }
 #header .link{
    margin-right: 30px;
 }

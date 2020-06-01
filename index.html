@@ -106,5 +106,16 @@
       <img src="./image/footerSquare.jpg" alt="">
    </footer>
    <!--end footer -->
+   <script>
+      let navbar = document.querySelector('#header')
+      window.addEventListener('scroll', function () {
+         if (pageYOffset >= 100) {
+            navbar.classList.add('fixed')
+            console.log(navbar.classList)
+         } else {
+            navbar.classList.remove('fixed')
+         }
+      })
+   </script>
 </body>
 </html>
